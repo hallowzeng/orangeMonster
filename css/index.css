@@ -288,6 +288,7 @@ body {
 	#navbar {margin-left: 0px;}
 	#navbar ul li:nth-child(n) {text-align: center;width: 100%;}
 	.carousel-wrapper {margin-top: 80px;}
+	.content-wrapper {height: 1260px;background-color: #000000;}
 	.content-right{margin-top: 100px;}
 	.footer{height: 600px;}
 	.footer-right{display: none;}
