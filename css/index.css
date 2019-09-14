@@ -284,9 +284,10 @@ body {
 	.main-wrapper{height: 1520px; background-repeat: repeat;}
 	.container {width: 100%;}
 	.top {display: none;}
-	.navbar-wrapper{width: 100%;}
+	.navbar-wrapper{width: 100%;position: fixed;left: 0; top: 0; z-index: 999;}
 	#navbar {margin-left: 0px;}
 	#navbar ul li:nth-child(n) {text-align: center;width: 100%;}
+	.carousel-wrapper {margin-top: 80px;}
 	.content-right{margin-top: 100px;}
 	.footer{height: 600px;}
 	.footer-right{display: none;}
@@ -321,5 +322,5 @@ body {
 }
 @media screen and (min-width: 1200px) and (max-width: 1500px){
 	.container {width: 75%;}
-	.footer-inner {width: 100%; margin-left: 0;}
+	.footer-inner {width: 100%; margin-left: 0;padding: 0 2%;}
 }
